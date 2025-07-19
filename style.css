@@ -513,12 +513,13 @@ body,
   .about-me,
   .education,
   .projects,
-  .skills {
-    padding: 16px 8px 12px 8px;
-    border-radius: 10px;
+  .skills,
+  .experience { 
+    padding: 16px 8px 12px 8px !important;
+    border-radius: 10px !important;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 30px;
     margin-bottom: 12px;
   }
   .edu-logo {
@@ -817,4 +818,3 @@ body,
     transform: none;
   }
 }
-
