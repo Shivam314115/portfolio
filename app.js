@@ -15,14 +15,14 @@ function showProjects(type) {
   }
 }
 
-// Show modal when Get in Touch is clicked
-document.querySelectorAll('.contact-btn').forEach(btn => {
-  btn.addEventListener('click', function(e) {
-    e.preventDefault();
-    document.getElementById('contactModal').style.display = 'flex';
-  });
-});
+// // Show modal when Get in Touch is clicked
+// document.querySelectorAll('.contact-btn').forEach(btn => {
+//   btn.addEventListener('click', function(e) {
+//     e.preventDefault();
+//     document.getElementById('contactModal').style.display = 'flex';
+//   });
+// });
 
-function closeModal() {
-  document.getElementById('contactModal').style.display = 'none';
-}
+// function closeModal() {
+//   document.getElementById('contactModal').style.display = 'none';
+// }
