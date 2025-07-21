@@ -192,12 +192,18 @@ h2 {
   background: rgb(18, 18, 18);
 }
 
+.edu-item > div {
+  padding-left: 16px;
+}
+
 .edu-logo {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50%;
-  background: #fff;
+  width: 64px !important;
+  height: 64px !important;
+  object-fit: contain !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.10);
+  display: block;
 }
 
 .edu-item h3 {
@@ -523,8 +529,8 @@ body,
     margin-bottom: 12px;
   }
   .edu-logo {
-    width: 32px;
-    height: 32px;
+    width: 64px;
+    height: 64px;
   }
   .project-thumb {
     width: 36px;
